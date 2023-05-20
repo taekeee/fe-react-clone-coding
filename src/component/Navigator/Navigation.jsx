@@ -16,6 +16,7 @@ const Top = styled.nav`
 
 const Title = styled.h1`
   display: flex;
+  align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left :300px;
@@ -36,7 +37,7 @@ const Button = styled.h1`
     padding:5px;
     padding-left: 12px;
     padding-right: 12px;
-    border: 1px solid #9A9DA0;
+    border: 1px solid #494E53;
     border-radius: 5px;
     cursor: pointer;
 `
@@ -44,7 +45,7 @@ const Navigation = () => {
     return (
         <Top>
             <Title> 
-                <BiCamera color="white" size="28px"/>
+                <BiCamera color="white" size="24px"/>
                 <Name>Album</Name>
             </Title>
             <Button>

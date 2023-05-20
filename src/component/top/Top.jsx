@@ -10,16 +10,17 @@ const TitleBlock = styled.div`
 `;
 
 const MainTitle = styled.p`
-    font-size:40px;
-    font-weight: 50;
+    font-size:37px;
+    font-weight: 20;
     margin-bottom: 10px;
 `;
 
 const SubTitle = styled.p`
     text-align: center;
     font-size: 18px;
+    font-weight: 40;
     line-height: 155%;
-    color: #6C757D;
+    color: #888296;
 `;
 
 const Button = styled.div`

@@ -12,20 +12,44 @@ const FooterBlock = styled.div`
     padding-right: 305px;
 
 `
+
 const Text1 = styled.p`
-    
+    .link{
+        text-decoration: none;
+        color: #007BFF;
+        &:hover{
+            color:#004896;
+            transition: 0.1s;
+            text-decoration: underline;
+        }
+    }
 `
-const Text2 = styled.p`
-    
+
+const Text2 = styled.a`
+   color: #007BFF;
+   cursor: pointer;
+   &:hover{
+            color:#004896;
+            transition: 0.1s;
+            text-decoration: underline;
+        }
+
 `
+
+
+const GoToUp =  () => {
+    window.scrollTo({top: 0});
+};
+
 
 const Footer = () => {
     return (
         <>
         <FooterBlock>
             <Text1>Album example is © Bootstrap, but please download and customize it for yourself!<br/>
-            New to Bootstrap? Visit the homepage or read our getting started guide.</Text1>
-            <Text2>Back to top</Text2>
+            New to Bootstrap? <a className="link" href="https://getbootstrap.com/">Visit the homepage</a> or read our { }
+            <a className="link" href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">getting started guide</a>.</Text1>
+            <Text2 onClick={GoToUp}>Back to top</Text2>
         </FooterBlock>
         </>
     );

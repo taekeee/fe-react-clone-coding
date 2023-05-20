@@ -7,7 +7,7 @@ const CardBlock = styled.div`
     justify-content: center;
     padding-left: 150px;
     padding-right: 150px;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 50px;
     background-color: #F8F9FA;
 `   
@@ -16,7 +16,7 @@ const CardEach = styled.div`
     background-color: white;
     margin:15px;
     border:1px solid white;
-    border-radius: 6px;
+    border-radius: 4px;
     
 `
 
@@ -36,9 +36,11 @@ const Thumbnail = styled.div`
     justify-content: center;
     align-items: center;
     background-color: #55595C;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     color: white;
-    height: 240px;
-    width: 340px;
+    height: 230px;
+    width: 350px;
 
 `
 
