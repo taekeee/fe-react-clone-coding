@@ -12,6 +12,8 @@
 
 https://getbootstrap.com/docs/4.3/examples/album/
 
+<br/>
+
 # 구현 페이지 캡처
 <img width="1263" alt="page1" src="https://github.com/taekeee/test/assets/129169639/ba60230d-56b5-4c6a-b1f5-269656f7a9d5">
 <img width="1265" alt="page2" src="https://github.com/taekeee/test/assets/129169639/2553c506-f905-4822-9d31-388446b29530">
