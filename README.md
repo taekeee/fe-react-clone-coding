@@ -12,6 +12,11 @@
 
 https://getbootstrap.com/docs/4.3/examples/album/
 
+# 구현 페이지 캡처
+<img width="1263" alt="page1" src="https://github.com/taekeee/test/assets/129169639/ba60230d-56b5-4c6a-b1f5-269656f7a9d5">
+<img width="1265" alt="page2" src="https://github.com/taekeee/test/assets/129169639/2553c506-f905-4822-9d31-388446b29530">
+<img width="1264" alt="page3" src="https://github.com/taekeee/test/assets/129169639/c137e2f5-ec37-4a90-851f-5e1d2f1612b3">
+
 <br/>
 
 ## 어른 사자의 길
